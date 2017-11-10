@@ -23,3 +23,4 @@ x[key] = function(...args) {
 //Kablewy!
 //Note that TestCafe crashes even though nothing ever *invokes* this function
 ```
+The issue doesn't appear if the rest syntax isn't used, or if the property access isn't dynamic (`x['arbitrary'] = function (...args) {...}` or `x[key] = function (some, arguments) {...}`)
