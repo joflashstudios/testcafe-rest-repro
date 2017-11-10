@@ -1,0 +1,14 @@
+{
+  "name": "testcafe-rest-bug-repro",
+  "version": "1.0.0",
+  "description": "A repository to reproduce the TestCafe rest syntax bug",
+  "scripts": {
+    "test": "testcafe chrome boom.ts",
+    "start": "npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^0.18.3"
+  }
+}
